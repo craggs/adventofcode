@@ -14,7 +14,7 @@
         }
     });
 
-    const filteredCoords = coords; // coords.filter(c => c.start[X] === c.finish[X] || c.start[Y] === c.finish[Y]);
+    const filteredCoords = coords.filter(c => c.start[X] === c.finish[X] || c.start[Y] === c.finish[Y]);
 
     const populatedPoints: { [id: string] : number; } = {};
 
